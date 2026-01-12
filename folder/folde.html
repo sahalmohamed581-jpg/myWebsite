@@ -1,0 +1,66 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="folder.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">logo</a>
+        <nav class="navbar" id="navbar">
+             <button class="menu-btn" id="menuBtn"><i class="bx bx-menu"></i></button>
+            <ul class="nav-links" id="navLinks">
+               
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">service</a></li>
+              
+            </ul>
+            
+            </nav>
+            
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1>Want to become a software <span>developer</span>!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error corrupti at dolore molestias sunt neque numquam cupiditate laudantium facere soluta assumenda libero impedit consequuntur dolorum saepe quasi nobis unde.</p>
+            <div class="social-icons">
+                <a href=""><i class="bx bxl-facebook"></i></a>
+                <a href=""><i class="bx bxl-instagram"></i></a>
+                <a href=""><i class="bx bxl-twitter"></i></a>
+                <a href=""><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <button class="btn">Contact</button>
+        </div>
+        <div class="home-img">
+            <img src="Programmer-bro.png" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <h4>reach us: </h4>
+        <div class="footer-icons">
+            <a href=""><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <p> &copy; copyright  2026 all rights reserved</p>
+    </footer>
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const navLinks = document.getElementById("navLinks")
+
+        menuBtn.addEventListener("click", ()=>{
+            navLinks.classList.toggle("active")
+
+        })
+    </script>
+</body>
+</html>
